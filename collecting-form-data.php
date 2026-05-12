@@ -1,6 +1,6 @@
 <?php include 'includes/header.php'; ?>
 
-<form action="collecting-form-data.php" method="POST">
+<form action="collecting-form-data.php" method="POST"enctype="multipart/form-data":>
   <p>Name:     <input type="text" name="name"></p>
   <p>Age:      <input type="text" name="age"></p>
   <p>Email:    <input type="text" name="email"></p>

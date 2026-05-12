@@ -71,6 +71,7 @@ h1 {
 
 form {
   text-align: right;
+  max-width: 50vw;
 }
 
 input {
@@ -103,4 +104,9 @@ input[type='submit']:hover {
 
 pre {
   text-align: left;
+  width: 600px;
+  overflow-x: scroll;
+  border: 1px solid white;
+  border-radius: 20px;
+  background: rgba(255,255,255,0.2);
 }
